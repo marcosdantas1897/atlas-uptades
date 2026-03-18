@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atualização - ATLAS CONNECT</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background-color: #f4f4f9;
+        }
+        .container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        h1 { color: #333; }
+        p { color: #666; }
+    </style>
+    <script type="module" src="https://unpkg.com/esp-web-tools@9.4.2/dist/web/install-button.js?module"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>ATLAS CONNECT</h1>
+        <p>Ligue o seu equipamento ao computador por cabo USB e clique no botão abaixo para atualizar o sistema.</p>
+        
+        <esp-web-install-button manifest="manifest.json"></esp-web-install-button>
+        
+        <p style="font-size: 0.8em; margin-top: 20px;">
+            *Requer navegador Google Chrome ou Microsoft Edge.
+        </p>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "ATLAS CONNECT",
+  "version": "1.0.0",
+  "new_install_prompt_erase": true,
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        {
+          "path": "atlas_firmware.bin",
+          "offset": 65536
+        }
+      ]
+    }
+  ]
+}
